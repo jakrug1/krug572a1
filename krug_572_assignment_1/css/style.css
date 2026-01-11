@@ -1,0 +1,84 @@
+
+
+body{
+    
+background-color: #6f313c;
+color: #ba9b8e;
+font-size: 20px;
+    font-family: "Palatino", "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0;             
+    padding: 0;            
+    overflow: hidden;     
+    background-color: #814B38;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;   
+    color: #ba9b8e;     
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
+}
+nav ul li a:hover {
+    background-color: #6f313c; 
+}
+
+p {
+    color: #f0dad1;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "Palatino", "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+h2 {
+    font-size:21px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    color: #f0dad1;
+}
+
+
+.top-section {
+
+    width: 300px;
+    margin:25px;
+    border:10px;
+    border-style:double;
+    padding:10px;
+}
+
+
+.bottom-section {
+}
+
+
+/* this is a css comment 
+margin: empty space around my element
+border: a border /stroke / around my element (don't forget border-style)
+padding: empty space WITH background around my element
+ALL these add on top of the width and height!
+*/
+
+
+
+
+/* some other notes:
+if want background image:
+    background-image: url(../img/image.jpg);
+    if looks funky, try backround-repeat: no-repeat (or repeat-x, repeat-y)
+    can use subtlepatterns online to get a repeating pattern
+   background-size: cover; works really well
+    */
